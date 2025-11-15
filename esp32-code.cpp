@@ -13,10 +13,10 @@
 #include <time.h>
 
 // ---- Your network & Firebase credentials ----
-const char* WIFI_SSID     = "Knight";
-const char* WIFI_PASSWORD = "@hez_ron";
-const char* FIREBASE_API_KEY = "AIzaSyB___vYj8mW9F-U_gIc3Y3oT7t3P4UzqTI"; // from Project Settings
-const char* DATABASE_URL  = "https://firedetectionsystem-d9c80-default-rtdb.firebaseio.com"; // no trailing slash
+const char* WIFI_SSID     = "WiFi";
+const char* WIFI_PASSWORD = "password";
+const char* FIREBASE_API_KEY = "FIREBASE API KEY"; // from Project Settings
+const char* DATABASE_URL  = "firebaseURL"; // no trailing slash
 
 // ---- Pins and thresholds (your original values) ----
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -266,4 +266,5 @@ time_t getEpochTimestamp() {
     return (time_t)(millis() / 1000);
   }
   return now;
+
 }
