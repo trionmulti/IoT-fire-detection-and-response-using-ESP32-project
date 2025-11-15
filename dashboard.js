@@ -11,13 +11,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB___vYj8mW9F-U_gIc3Y3oT7t3P4UzqTI",
-  authDomain: "firedetectionsystem-d9c80.firebaseapp.com",
-  databaseURL: "https://firedetectionsystem-d9c80-default-rtdb.firebaseio.com",
-  projectId: "firedetectionsystem-d9c80",
-  storageBucket: "firedetectionsystem-d9c80.firebasestorage.app",
-  messagingSenderId: "256849534995",
-  appId: "1:256849534995:web:5627419fb7fdc5151f5fe6"
+  apiKey: "REPLACE API",
+  authDomain: "REPLACE DOMAIN",
+  databaseURL: "REPLACE URL",
+  projectId: "REPLACE ID",
+  storageBucket: "REPLACE",
+  messagingSenderId: "REPLACE",
+  appId: "REPLACE"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -183,4 +183,5 @@ setInterval(() => {
     overallStatusCard.style.color = '#94a3b8';
     stopAlarm();
   }
+
 }, 5000);
